@@ -1,7 +1,6 @@
 #!/bin/bash
-sudo -S git clone https://github.com/VitecLeak/LeakCheck.git
 cd /usr/bin/
-sudo -S git pull
+sudo -S git clone https://github.com/VitecLeak/LeakCheck.git
 cd /usr/bin/LeakCheck
 sudo -S rm -rf /usr/bin/LeakCheck_V1.2
 sudo -S cp update.sh /usr/bin/
